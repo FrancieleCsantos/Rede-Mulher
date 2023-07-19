@@ -1,14 +1,12 @@
-
-import './App.css'
+import Router from './Router'
+import './global.css'
 
 function App() {
-  
-
   return (
-    <>
-     <div>Home</div>
-    </>
+    <div className='App'>
+      <Router />
+    </div>
   )
-}
+} 
 
 export default App

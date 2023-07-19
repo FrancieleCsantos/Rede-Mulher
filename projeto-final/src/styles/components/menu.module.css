@@ -1,15 +1,25 @@
 .menuContainer {
-  background: #fff;
+  background: #ffff;
+  width: 100%;
+  height: 20%;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10rem;
-  padding: 2rem;
   list-style: none;
 }
 
 .menuLink {
   text-decoration: none;
-  color: #686AAC;
-  font-size: 1.5rem;
+  color: #c56483;
+  font-size: 1.3rem;
+}
+
+a:hover {
+  color: #c405ca;
+}
+
+.menuContainer img {
+  width: 6rem;
+  margin-right: 16rem;
 }

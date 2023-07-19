@@ -1,24 +1,19 @@
 .headerContainer {
-  background-color: #640960;
+  background-image: url(../../assets/logo.Header.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 4rem;
-  padding: 6rem;
+  gap: 6rem;
+  padding: 8rem;
+ 
 }
-
-.headerTitle {
-  font-size: 4rem;
-  color: #fff
-}
-
-.headerImage {
-  width: 40%;
-}
-
 
 .headerSubtitle{
   font-size: 2rem;
   color: #fff
 }
+
+

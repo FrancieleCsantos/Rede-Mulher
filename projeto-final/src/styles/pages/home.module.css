@@ -1,30 +1,52 @@
-.containerMainHome {
-    padding: 10rem;
+.containerHome {
     display: flex;
-    justify-content: center;
     align-items: center;
-    gap: 4rem;
+    justify-content: space-between;
+    margin: 6rem;
+    gap: 3rem;
     text-align: center;
+    background: #e0e0e0;
+    box-shadow: 43px 43px 94px #bcbcbc,
+        -43px -43px 94px #ffffff;
 }
 
-.containerMainHome p {
-    margin-top: 2rem;
-    padding: 1rem;
+.containerHome img {
+    width: 31.25rem;
+    height: 25rem;
+    border-radius: 0.5rem;
 }
 
-.imgVida,
-.imgCodigo,
-.imgContatos {
-    width: 24rem;
-}
-
-.cardVida,
-.cardCodigo,
-.cardContatos {
+.containerHomeText {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    height: 23.125rem;
-    background: rgba(255, 255, 255, 0.1);
-    box-shadow: 0 26px 42px rgba(9, 9, 9, 0.1);
+}
+
+section {
+    display: flex;
+    gap: 2rem;
+    margin: 4rem;
+}
+
+.cardsHome1,
+.cardsHome2,
+.cardsHome3 {
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+    background: #e0e0e0;
+    box-shadow: 35px 35px 71px #949494,
+        -35px -35px 71px #ffffff;
+
+    border-radius: 0.5rem;
+}
+
+section img {
+    margin-top: 3rem;
+    width: 16rem;
+    height: 10rem;
+    border-radius: 0.5rem;
 }
