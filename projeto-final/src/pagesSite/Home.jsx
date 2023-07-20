@@ -6,6 +6,9 @@ import Text from '../components/Text'
 import Image from '../components/Image'
 import imgViolenciaNao from '../assets/violenciaNao.jpg'
 import mulherNoChao from '../assets/Foto3-chao.jpg'
+import ViolenciaFisica from '../assets/Foto1-mulher.jpg'
+import sexual from '../assets/sexual.jpg'
+import emocional from '../assets/dependenciaEmocional.jpg'
 
 
 function Home() {
@@ -35,22 +38,43 @@ function Home() {
                     <Title content="Como identificar os tipos de violência?" />
                     <section lassName={styles.cardsContainer}>
                         <div className={styles.cardsHome1}>
-                            <Image className={styles.cardsImg} img={mulherNoChao} altText="Mulher deitada no chão, aparentemente triste" />
-                            <Subtitle content="Violência psicológica" />
-                            <Text text="conduta que cause dano
-                            emocional e diminuição da autoestima da mulher
-                            ou que lhe prejudique e perturbe o pleno desenvolvimento, 
-                            ou ainda que vise degradar ou controlar suas ações, comportamentos, crenças e decisões,
-                            mediante ameaça, constrangimento, humilhação, manipulação, isolamento, vigilância constante,
-                          perseguição contumaz, insulto, chantagem, ridicularização."/>
+                            <Image className={styles.cardsImg} img={ViolenciaFisica} altText="Homem com punho fechamento fazendo menção a agressão física" />
+                            <Subtitle content="Violência física" />
+                            <Text text="É aquela entendida como qualquer
+                             conduta que ofenda integridade ou saúde corporal da mulher.
+                             É praticada com uso de força física do agressor, que machuca a vítima de várias maneiras 
+                             ou ainda com o uso de armas, exemplos: Bater, chutar, queimar, cortar e mutilar. "/>
+
                         </div>
                         <div className={styles.cardsHome2}>
-                            <h2>Card2</h2>
+                            <Image className={styles.cardsImg} img={mulherNoChao} altText="Mulher deitada no chão, aparentemente triste" />
+                            <Subtitle content="Violência psicológica" />
+                            <Text text="Qualquer conduta que cause dano emocional e diminuição da autoestima da mulher, 
+                            nesse tipo de violência é muito comum a mulher ser proibida de trabalhar, estudar,
+                             sair de casa, ou viajar, falar com amigos ou parentes."/>
                         </div>
+
                         <div className={styles.cardsHome3}>
-                            <h2>Card3</h2>
+                            <Image className={styles.cardsImg} img={sexual} altText="Mulher deitada no chão, aparentemente triste" />
+                            <Subtitle content="Violência sexual" />
+                            <Text text="é caracterizada como qualquer conduta que constranja a mulher
+                             a presenciar, a manter ou a participar de relação sexual não desejada. 
+                             Quando a mulher é obrigada a se prostituir, ameaça, coação ou uso da força;
+                              que a induza a comercializar ou a utilizar, de qualquer modo, a sua sexualidade."/>
                         </div>
+
                     </section>
+                </div>
+                <div className={styles.containerHome}>
+
+                    <Image className={styles.containerHomeImg1} img={emocional} altText="Homem segurando a mão da mulher de forma agressiva" />
+                    <div className={styles.containerHomeText}>
+                        <Title content="O que é dependência emocional?" />
+                        <Text text="A dependência emocional caracteriza-se pelo apego excessivo a outra pessoa.
+                         Esta pode ser um cônjuge, um parente ou um amigo. Todavia, é mais comum ver esse 
+                         tipo de dinâmica em relacionamentos amorosos, onde são investidas mais emoções
+                          e sentimentos."/>
+                    </div>
                 </div>
             </main>
         </>
