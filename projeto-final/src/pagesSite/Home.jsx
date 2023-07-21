@@ -9,6 +9,9 @@ import mulherNoChao from '../assets/Foto3-chao.jpg'
 import ViolenciaFisica from '../assets/Foto1-mulher.jpg'
 import sexual from '../assets/sexual.jpg'
 import emocional from '../assets/dependenciaEmocional.jpg'
+import ImgDenunce from "../assets/img1.jpg"
+import ImgFlorecer from "../assets/img2.jpg"
+import imgAmor from "../assets/img3.jpg"
 
 
 function Home() {
@@ -71,6 +74,21 @@ function Home() {
                          Esta pode ser um cônjuge, um parente ou um amigo. Todavia, é mais comum ver esse 
                          tipo de dinâmica em relacionamentos amorosos, onde são investidas mais emoções
                           e sentimentos."/>
+                    </div>
+                </div>
+                <div className={styles.containerRevive}>
+                    <div className={styles.ReviveDenunce}>
+                        <Image className={styles.imgVetores} img={ImgDenunce} altText="O desenho de uma mulher triste se olhando no espelho" />
+                        <Text text="Não aceite nenhum tipo de violência. Denuncie ligue 180." />
+                    </div>
+                    <div className={styles.ReviveFlorecer}>
+                        <Image className={styles.imgVetores} img={imgAmor} altText="O desenho de uma mulher se regando" />
+                        <Text text="Quando você recuperar ou descobrir algo que nutre sua alma e traz alegria,
+                         cuide-se o suficiente para dar espaço para isso em sua vida." />
+                    </div>
+                    <div className={styles.ReviveAmor}>
+                        <Image className={styles.imgVetores} img={ImgFlorecer} altText="O desenho de uma mulher se auto abraçando" />
+                        <Text text="Cultive o amor-próprio como quem cultiva uma árvore rara. Ele lhe dará bons frutos!" />
                     </div>
                 </div>
             </main>

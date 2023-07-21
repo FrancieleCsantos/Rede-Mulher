@@ -14,6 +14,7 @@
     width: 31.25rem;
     height: 25rem;
     border-radius: 0.5rem;
+   
 }
 
 .containerHomeText {
@@ -30,7 +31,8 @@ section {
 
 .cardsHome {
     background-color: #f3c6f5;
-    margin: 2rem;
+    margin: 4rem;
+    border-radius: 1rem;
 }
 
 .cardsHome1,
@@ -55,4 +57,25 @@ section img {
     width: 16rem;
     height: 10rem;
     border-radius: 0.5rem;
+}
+
+.ReviveDenunce,.ReviveFlorecer, .ReviveAmor{
+    width: 24rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   align-items: center;
+}
+
+
+.containerRevive{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+.containerRevive img{
+    width: 14rem;
+    border-radius: 26rem;
+   
 }
