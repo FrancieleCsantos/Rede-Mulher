@@ -33,7 +33,6 @@ function Home() {
                             e 21,1% foram forçadas a manter relações sexuais contra sua vontade."/>
                     </div>
                 </div>
-
                 <div className={styles.cardsHome}>
                     <Title content="Como identificar os tipos de violência?" />
                     <section lassName={styles.cardsContainer}>
@@ -62,11 +61,9 @@ function Home() {
                              Quando a mulher é obrigada a se prostituir, ameaça, coação ou uso da força;
                               que a induza a comercializar ou a utilizar, de qualquer modo, a sua sexualidade."/>
                         </div>
-
                     </section>
                 </div>
                 <div className={styles.containerHome}>
-
                     <Image className={styles.containerHomeImg1} img={emocional} altText="Homem segurando a mão da mulher de forma agressiva" />
                     <div className={styles.containerHomeText}>
                         <Title content="O que é dependência emocional?" />

@@ -24,7 +24,13 @@
 section {
     display: flex;
     gap: 2rem;
-    margin: 4rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.cardsHome {
+    background-color: #f3c6f5;
+    margin: 2rem;
 }
 
 .cardsHome1,
@@ -50,4 +56,3 @@ section img {
     height: 10rem;
     border-radius: 0.5rem;
 }
-
