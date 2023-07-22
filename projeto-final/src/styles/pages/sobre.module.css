@@ -1,0 +1,38 @@
+.containerSobre {
+    margin: 4rem;
+}
+
+.containerMainSobre {
+    display: flex;
+    justify-content: center;
+}
+
+.containerSobre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerSobreSubtitle {
+    margin-bottom: 2rem;
+}
+
+.containerSobreTexHello {
+    margin-top: 2rem;
+}
+
+.containerSobreTex,
+.containerSobreTexHello {
+    font-size: 1.3rem;
+    color: #474a51;
+}
+
+.containerSobreImg img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+margin-top: 100px;
+    height: 300px;
+    border-radius: 30%;
+}
