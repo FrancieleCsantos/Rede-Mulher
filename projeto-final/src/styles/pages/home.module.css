@@ -1,25 +1,35 @@
+.containerMainHome {
+    background-image: url(../../assets/fundoHome.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
 .containerHome {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 6rem;
-    gap: 3rem;
+    margin: 4rem;
+    padding-bottom: 3rem;
+    gap: 6rem;
     text-align: center;
-    background: #e0e0e0;
-    box-shadow: 43px 43px 94px #bcbcbc,
-        -43px -43px 94px #ffffff;
 }
 
+
 .containerHome img {
-    width: 31.25rem;
-    height: 25rem;
-    border-radius: 0.5rem;
-   
+    width: 30.25rem;
+    height: 23rem;
+    border-radius: 25% 10%;
+    margin-bottom: 8rem;
 }
 
 .containerHomeText {
     display: flex;
     flex-direction: column;
+    align-items: flex-end;
+    border-radius: 10px 100px 120px;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+
 }
 
 section {
@@ -30,9 +40,17 @@ section {
 }
 
 .cardsHome {
-    background-color: #f3c6f5;
-    margin: 4rem;
+    background: rgba(173, 86, 169, 0.21);
+    border-radius: 10px 100px 120px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    margin-top: 12rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    backdrop-filter: blur(0.3px);
+    -webkit-backdrop-filter: blur(0.3px);
+    border: 1px solid rgba(253, 253, 253, 1);
     border-radius: 1rem;
+
 }
 
 .cardsHome1,
@@ -45,11 +63,14 @@ section {
     text-align: center;
     margin-bottom: 4rem;
     margin-top: 2rem;
-    background: #e0e0e0;
+    background: rgba(233, 212, 237, 0.23);
+    border-radius: 1rem;
+    backdrop-filter: blur(0.019rem);
+    -webkit-backdrop-filter: blur(0.3px);
     box-shadow: 35px 35px 71px #949494,
         -35px -35px 71px #ffffff;
 
-    border-radius: 0.5rem;
+
 }
 
 section img {
@@ -57,25 +78,32 @@ section img {
     width: 16rem;
     height: 10rem;
     border-radius: 0.5rem;
+
 }
 
-.ReviveDenunce,.ReviveFlorecer, .ReviveAmor{
+.ReviveDenunce,
+.ReviveFlorecer,
+.ReviveAmor {
     width: 24rem;
     display: flex;
     flex-direction: column;
+    margin-top: 6rem;
     justify-content: center;
-   align-items: center;
+    align-items: center;
 }
 
-
-.containerRevive{
+.containerRevive {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 4rem;
+    background-image: url(../../assets/fundoHome.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
-.containerRevive img{
+
+.containerRevive img {
     width: 14rem;
     border-radius: 26rem;
-   
+
 }

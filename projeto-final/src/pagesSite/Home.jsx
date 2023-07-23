@@ -8,7 +8,7 @@ import imgViolenciaNao from '../assets/violenciaNao.jpg'
 import mulherNoChao from '../assets/Foto3-chao.jpg'
 import ViolenciaFisica from '../assets/Foto1-mulher.jpg'
 import sexual from '../assets/sexual.jpg'
-import emocional from '../assets/dependenciaEmocional.jpg'
+import Button from '../components/Button'
 import ImgDenunce from "../assets/img1.jpg"
 import ImgFlorecer from "../assets/img2.jpg"
 import imgAmor from "../assets/img3.jpg"
@@ -34,8 +34,11 @@ function Home() {
                              violência física ou sexual provocada por parceiro íntimo ao longo da vida.
                             24,5% afirmaram ter sofrido agressões físicas como tapa, batida e chute,
                             e 21,1% foram forçadas a manter relações sexuais contra sua vontade."/>
+                        <Button  className={styles.bthHome} text="Buscar ajuda" />
                     </div>
+
                 </div>
+
                 <div className={styles.cardsHome}>
                     <Title content="Como identificar os tipos de violência?" />
                     <section lassName={styles.cardsContainer}>
@@ -65,16 +68,6 @@ function Home() {
                               que a induza a comercializar ou a utilizar, de qualquer modo, a sua sexualidade."/>
                         </div>
                     </section>
-                </div>
-                <div className={styles.containerHome}>
-                    <Image className={styles.containerHomeImg1} img={emocional} altText="Homem segurando a mão da mulher de forma agressiva" />
-                    <div className={styles.containerHomeText}>
-                        <Title content="O que é dependência emocional?" />
-                        <Text text="A dependência emocional caracteriza-se pelo apego excessivo a outra pessoa.
-                         Esta pode ser um cônjuge, um parente ou um amigo. Todavia, é mais comum ver esse 
-                         tipo de dinâmica em relacionamentos amorosos, onde são investidas mais emoções
-                          e sentimentos."/>
-                    </div>
                 </div>
                 <div className={styles.containerRevive}>
                     <div className={styles.ReviveDenunce}>

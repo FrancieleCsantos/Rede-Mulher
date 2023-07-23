@@ -1,8 +1,7 @@
-// import Header from "../components/Header";
 import styles from '../styles/pages/sobre.module.css'
 import Subtitle from '../components/Subtitle'
-import eu from '../assets/Minhaversao.jpeg'
-import Image from '../components/Image';
+import Button from '../components/Button';
+
 
 function Sobre() {
 
@@ -10,7 +9,7 @@ function Sobre() {
         <>
             <main className={styles.containerMainSobre}>
                 <section className={styles.containerSobre}>
-                    <div>
+                    <div className={styles.container}>
                         <Subtitle content="Conheça um pouco sobre mim" />
                         <p className={styles.containerSobreTexHello}>Olá,</p><br />
                         <p className={styles.containerSobreTex}> Aqui quem escreve é Fran Santos.
@@ -40,9 +39,7 @@ function Sobre() {
                             relacionamento abusivo e para que saibam onde buscar apoio.
                         </p>
                     </div>
-                    <div className={styles.containerSobreImg}>
-                        <Image img={eu} altText="Foto da autora, mulher sorrindo com o rosto virado para o céu amirando a natureza" />
-                    </div>
+                    <Button  className={styles.ButtonContent} text="Buscar ajuda"/>
                 </section>
             </main>
         </>

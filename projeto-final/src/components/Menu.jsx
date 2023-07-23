@@ -7,7 +7,7 @@ import styles from '../styles/components/menu.module.css'
 const Menu = () => {
   return (
     <nav className={styles.menuContainer}>
-       <Image img={LogoNav} />
+      <Image img={LogoNav} />
       <li>
         <Link className={styles.menuLink} to="/">Home</Link>
       </li>
@@ -15,7 +15,7 @@ const Menu = () => {
         <Link className={styles.menuLink} to="/sobre">Quem somos</Link>
       </li>
       <li>
-        <Link className={styles.menuLink} to="/portfolio">Aqui você encontra ajuda</Link>
+        <Link className={styles.menuLink} to="/Ajuda">Aqui você encontra ajuda</Link>
       </li>
     </nav>
   )

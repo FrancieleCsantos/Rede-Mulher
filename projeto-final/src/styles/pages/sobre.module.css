@@ -1,16 +1,14 @@
 .containerSobre {
-    margin: 4rem;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .containerMainSobre {
-    display: flex;
-    justify-content: center;
-}
-
-.containerSobre {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-image: url(../../assets/fundoSobre.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100%;
 }
 
 .containerSobreSubtitle {
@@ -25,14 +23,9 @@
 .containerSobreTexHello {
     font-size: 1.3rem;
     color: #474a51;
+    text-align: justify;
 }
 
-.containerSobreImg img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 400px;
-margin-top: 100px;
-    height: 300px;
-    border-radius: 30%;
+.container {
+    width: 43.75rem
 }
