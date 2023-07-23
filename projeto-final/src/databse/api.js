@@ -1,0 +1,5 @@
+const insti = [
+    {
+            id
+    }
+]

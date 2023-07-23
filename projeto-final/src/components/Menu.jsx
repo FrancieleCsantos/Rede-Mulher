@@ -8,15 +8,17 @@ const Menu = () => {
   return (
     <nav className={styles.menuContainer}>
       <Image img={LogoNav} />
-      <li>
-        <Link className={styles.menuLink} to="/">Home</Link>
-      </li>
-      <li>
-        <Link className={styles.menuLink} to="/sobre">Quem somos</Link>
-      </li>
-      <li>
-        <Link className={styles.menuLink} to="/Ajuda">Aqui você encontra ajuda</Link>
-      </li>
+      <ul>
+        <li>
+          <Link className={styles.menuLink} to="/">Home</Link>
+        </li>
+        <li>
+          <Link className={styles.menuLink} to="/sobre">Quem somos</Link>
+        </li>
+        <li>
+          <Link className={styles.menuLink} to="/Ajuda">Aqui você encontra ajuda</Link>
+        </li>
+      </ul>
     </nav>
   )
 }

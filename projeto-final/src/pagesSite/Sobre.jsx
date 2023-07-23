@@ -17,7 +17,7 @@ function Sobre() {
                             Criadora da Rede Mulher.
                         </p><br />
 
-                        <p className={styles.containerSobreTex}>Comecei meu primeiro relacionamento aos 17 anos, ele era 5 anos mais velho. No início eu acreditava
+                        <p className={styles.containerSobreTex}>Comecei meu primeiro relacionamento aos 17 anos e ele era 5 anos mais velho. No início eu acreditava
                             que o seu comportamento  era normal, que as crises de ciúmes e que regular
                             minhas vestimentas eram apenas uma forma de demonstrar seu amor por mim.
                             Ele me fez acreditar que ninguém além dele poderia me amar, me afastou dos meus amigos,

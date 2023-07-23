@@ -3,30 +3,33 @@
   width: 100%;
   height: 20%;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  gap: 10rem;
   list-style: none;
 
-  background: rgba(253, 247, 251, 0.06);
-  border-radius: 16px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(239, 201, 235, 1) 0%, rgba(200, 68, 171, 1) 100%);
   box-shadow: 0 4px 30px rgba(2, 1, 1, 0.1);
   backdrop-filter: blur(0.7px);
   -webkit-backdrop-filter: blur(0.7px);
-  border: 1px solid rgba(253, 247, 251, 1);
+
 }
-
-
+ul{
+  display: flex;
+  gap: 3rem;
+  margin-right: 2rem;
+  list-style: none;
+}
 
 .menuLink {
   text-decoration: none;
-  color: #c56483;
-  font-size: 1.3rem;
+  color: #ffffff;
+  font-size: 1.2rem;
   font-weight: bold;
 }
 
 a:hover {
-  color: #c405ca;
+  color: #ddf1f4;
 }
 
 .menuContainer img {
