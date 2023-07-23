@@ -3,3 +3,22 @@
     background-repeat: no-repeat;
     background-size: 100%;
 }
+
+.containerImgAjuda{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.containerImgAjuda h2{
+    width: 900px;
+    text-align: center;
+}
+.containerInput{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 6rem;
+}
