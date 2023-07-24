@@ -2,6 +2,8 @@ import styles from '../styles/pages/ajuda.module.css'
 import Image from '../components/Image';
 import ajuda from "../assets/fundoAjuda2.png"
 import Subtitle from "../components/Subtitle"
+import Title from '../components/Title'
+import Button from '../components/Button';
 
 function Ajuda() {
     return (
@@ -13,15 +15,15 @@ function Ajuda() {
                       para que você possa  falar sobre sentimentos e emoções presentes, momentos e 
                     vivências com algum ponto de dificuldade, gerando reflexão e autoconhecimento."/>
                 </div>
-{/* <Title/> */}
+                <Title content="A Rede Mulher te conecta a redes de apoio, faça uma busca." />
                 <div className={styles.containerInput}>
-                    <input></input>
+                    <div className={styles.containerBusca}>
+                        <input placeholder='Pesquise pelo nome da cidade'></input>
+                        <button>Pesquisar</button>
+                    </div>
                     <div className={styles.containerCards}>
-
                     </div>
                 </div>
-
-
             </main>
         </>
     )
