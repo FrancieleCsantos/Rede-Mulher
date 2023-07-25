@@ -3,9 +3,22 @@ import Image from '../components/Image';
 import ajuda from "../assets/fundoAjuda2.png"
 import Subtitle from "../components/Subtitle"
 import Title from '../components/Title'
-import Button from '../components/Button';
+import { useState, useEffect } from 'react';
+import Text from '../components/Text';
+import data from '../databse/api.js'
+
 
 function Ajuda() {
+    const [insti, setInsti] = useState([])
+
+    useEffect(() => {
+        try {
+            setInsti(data)
+        } catch (error) {
+            console.error("Ops, ocorreu um erro aqui :", error)
+        }
+    }, [])
+
     return (
         <>
             <main className={styles.containerMainAjuda}>
@@ -18,11 +31,24 @@ function Ajuda() {
                 <Title content="A Rede Mulher te conecta a redes de apoio, faça uma busca." />
                 <div className={styles.containerInput}>
                     <div className={styles.containerBusca}>
+
                         <input placeholder='Pesquise pelo nome da cidade'></input>
-                        <button>Pesquisar</button>
+                        <button className={styles.containerBtnAjuda}>Pesquisar</button>
                     </div>
-                    <div className={styles.containerCards}>
-                    </div>
+                </div>
+                <div className={styles.containerCards}>
+                    {insti.map((instis) => (
+                        <div className={styles.containerCard} key={instis.id}>
+                            <h3 className={styles.cardTitle}>{instis.Instituição}</h3>
+                            <span className={styles.cardEndereco}>{instis.Endereço}</span>
+                            <span className={styles.cardContato}>{instis.Contato}</span>
+                            <p className={styles.cardContato}>{instis.Informações}</p>
+                        </div>
+                    )
+
+                    )
+                    }
+
                 </div>
             </main>
         </>

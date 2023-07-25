@@ -2,6 +2,9 @@
     background-image: url(../../assets/fundoAjuda.png);
     background-repeat: no-repeat;
     background-size: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .containerImgAjuda {
@@ -27,7 +30,7 @@ input {
     width: 30%;
     height: 40px;
     line-height: 28px;
-    border: 2px solid transparent;
+    border: 2px solid rgb(143, 236, 232);
     outline: none;
     background-color: #f3f3f4;
     color: #0d0c22;
@@ -46,7 +49,7 @@ input:hover {
     box-shadow: 0 0 0 4px rgb(234 76 137 / 10%);
 }
 
-button {
+.containerBtnAjuda {
     width: 8.125rem;
     height: 2.5rem;
     letter-spacing: 2px;
@@ -55,10 +58,10 @@ button {
     text-align: center;
     font-weight: bold;
     padding: 0.7em 2em;
-    border: 1px solid #FF0072;
+    border: 1px solid #00fff2;
     border-radius: 2px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
-    color: #FF0072;
+    color: #37d8d0;
     text-decoration: none;
     transition: 0.3s ease all;
     position: absolute;
@@ -66,7 +69,67 @@ button {
     cursor: pointer;
 }
 
-button:hover{
-    background-color: #FF0072;
-    color: #f3f3f4;
+.containerBtnAjuda:hover {
+    background-color: #66e1e6;
+    color: #f059e3;
+}
+
+
+.containerCards {
+    /* background-color: #f059e3; */
+    border-radius: 1rem;
+    height: 60rem;
+    margin: 8rem;
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    grid-column-gap: 5px;
+    /* From https://css.glass */
+background: rgba(8, 172, 184, 0.31);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(0px);
+-webkit-backdrop-filter: blur(0px);
+border: 1px solid rgba(97, 10, 81, 0.18);
+
+}
+
+.containerCard {
+    display: flex;
+    /* justify-content: center; */
+
+    width: 170;
+    padding: 1rem;
+    flex-direction: column;
+
+    margin: 1rem;
+    border-radius: 2rem;
+
+    background: rgba(255, 255, 255, 0.16);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
+}
+
+.containerCard h3 {
+    margin-top: 1rem;
+    padding-bottom: 2rem;
+    
+}
+
+.containerCard span {
+    padding-bottom: 1rem;
+    color: #474a51;
+}
+
+.containerCard p {
+    color: #474a51;
+    text-align: justify;
+}
+.containerCard h3 {
+    color: #474a51;
+
+    color: rgb(196, 43, 163);
 }
