@@ -4,13 +4,13 @@ import ajuda from "../assets/fundoAjuda2.png"
 import Subtitle from "../components/Subtitle"
 import Title from '../components/Title'
 import { useState, useEffect } from 'react';
-import Text from '../components/Text';
 import data from '../databse/api.js'
 
 
 function Ajuda() {
     const [insti, setInsti] = useState([])
-
+    const [busca, setBusca] = useState('')
+ 
     useEffect(() => {
         try {
             setInsti(data)
@@ -18,6 +18,10 @@ function Ajuda() {
             console.error("Ops, ocorreu um erro aqui :", error)
         }
     }, [])
+
+    console.log(insti)
+    const lugaresFiltrados = insti
+    .filter((lugaresDeApoio) => lugaresDeApoio.Instituição.toLocaleLowerCase().includes(busca.toLocaleLowerCase()))
 
     return (
         <>
@@ -32,20 +36,22 @@ function Ajuda() {
                 <div className={styles.containerInput}>
                     <div className={styles.containerBusca}>
 
-                        <input placeholder='Pesquise pelo nome da cidade'></input>
+                        <input placeholder='Pesquise pelo nome da cidade' type='text'
+                            value={busca}
+                            onChange={(event) => setBusca(event.target.value)}></input>
                         <button className={styles.containerBtnAjuda}>Pesquisar</button>
                     </div>
                 </div>
                 <div className={styles.containerCards}>
-                    {insti.map((instis) => (
+                    {lugaresFiltrados.map((instis) => (
                         <div className={styles.containerCard} key={instis.id}>
                             <h3 className={styles.cardTitle}>{instis.Instituição}</h3>
+                            <span className={styles.cardContato}>{instis.Cidade}</span>
                             <span className={styles.cardEndereco}>{instis.Endereço}</span>
                             <span className={styles.cardContato}>{instis.Contato}</span>
                             <p className={styles.cardContato}>{instis.Informações}</p>
                         </div>
                     )
-
                     )
                     }
 

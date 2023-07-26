@@ -1,6 +1,7 @@
 import styles from '../styles/pages/sobre.module.css'
 import Subtitle from '../components/Subtitle'
 import Button from '../components/Button';
+import { Link } from 'react-router-dom';
 
 
 function Sobre() {
@@ -39,7 +40,7 @@ function Sobre() {
                             relacionamento abusivo e para que saibam onde buscar apoio.
                         </p>
                     </div>
-                    <Button  className={styles.ButtonContent} text="Buscar ajuda"/>
+                    <Link to="/ajuda"><Button className={styles.ButtonContent} text="Buscar ajuda" /></Link>
                 </section>
             </main>
         </>

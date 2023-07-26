@@ -12,6 +12,7 @@ import Button from '../components/Button'
 import ImgDenunce from "../assets/img1.jpg"
 import ImgFlorecer from "../assets/img2.jpg"
 import imgAmor from "../assets/img3.jpg"
+import { Link } from 'react-router-dom'
 
 
 function Home() {
@@ -34,7 +35,7 @@ function Home() {
                              violência física ou sexual provocada por parceiro íntimo ao longo da vida.
                             24,5% afirmaram ter sofrido agressões físicas como tapa, batida e chute,
                             e 21,1% foram forçadas a manter relações sexuais contra sua vontade."/>
-                        <Button className={styles.bthHome} text="Buscar ajuda" />
+                        <Link to="/ajuda"><Button className={styles.bthHome} text="Buscar ajuda" /></Link>
                     </div>
 
                 </div>
