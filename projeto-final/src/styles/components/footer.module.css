@@ -11,3 +11,11 @@
   color: #fff;
   font-size: 1rem;
 }
+
+/* Media Query for smaller screens */
+@media (max-width: 768px) {
+  .footerContainer {
+    font-size: 0.9rem;
+    padding: 0.5rem;
+  }
+}

@@ -36,3 +36,53 @@ a:hover {
   width: 4rem;
   margin-right: 16rem;
 }
+
+
+/* Media Query for devices with a width between 320px and 480px */
+@media (min-width: 320px) and (max-width: 480px) {
+  .menuContainer {
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  .menuLink {
+    margin-top: 1rem;
+    margin-left: 0;
+    display: block;
+    font-size: 0.9rem;
+  }
+}
+
+/* Media Query for iPads and tablets with a width between 481px and 768px */
+@media (min-width: 481px) and (max-width: 768px) {
+  .menuContainer {
+    padding: 0.8rem;
+  }
+
+  .menuLink {
+    font-size: 1rem;
+  }
+}
+
+/* Media Query for small laptops and screens with a width between 769px and 1024px */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .menuContainer {
+    padding: 0.6rem;
+  }
+
+  .menuLink {
+    font-size: 1.1rem;
+  }
+}
+
+/* Media Query for desktops and large screens with a width between 1025px and 1200px */
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .menuContainer {
+    padding: 0.4rem;
+  }
+
+  .menuLink {
+    font-size: 1.2rem;
+  }
+}

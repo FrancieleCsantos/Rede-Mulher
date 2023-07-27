@@ -1,6 +1,6 @@
 import styles from '../styles/pages/ajuda.module.css'
 import Image from '../components/Image';
-import ajuda from "../assets/fundoAjuda2.png"
+import ajuda from "../assets/fundoAjuda2.jpg"
 import Subtitle from "../components/Subtitle"
 import Title from '../components/Title'
 import { useState, useEffect } from 'react';

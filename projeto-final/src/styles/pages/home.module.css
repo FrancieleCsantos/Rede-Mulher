@@ -1,5 +1,6 @@
+
 .containerMainHome {
-    background-image: url(../../assets/fundoHome.png);
+    background-image: url(../../assets/fundoAjudan.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -14,7 +15,9 @@
     text-align: center;
 }
 
-
+.containerHomeText p{
+   margin-left: 2rem;
+}
 .containerHome img {
     width: 30.25rem;
     height: 23rem;
@@ -29,7 +32,6 @@
     border-radius: 10px 100px 120px;
     margin-left: 1rem;
     margin-bottom: 1rem;
-
 }
 
 section {
@@ -43,14 +45,13 @@ section {
     background: rgba(173, 86, 169, 0.21);
     border-radius: 10px 100px 120px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    margin-top: 12rem;
+    margin-top: 2rem;
     margin-left: 2rem;
     margin-right: 2rem;
     backdrop-filter: blur(0.3px);
     -webkit-backdrop-filter: blur(0.3px);
     border: 1px solid rgba(253, 253, 253, 1);
     border-radius: 1rem;
-
 }
 
 .cardsHome1,
@@ -67,10 +68,7 @@ section {
     border-radius: 1rem;
     backdrop-filter: blur(0.019rem);
     -webkit-backdrop-filter: blur(0.3px);
-    box-shadow: 35px 35px 71px #949494,
-        -35px -35px 71px #ffffff;
-
-
+    box-shadow: 35px 35px 71px #949494, -35px -35px 71px #ffffff;
 }
 
 section img {
@@ -78,7 +76,6 @@ section img {
     width: 16rem;
     height: 10rem;
     border-radius: 0.5rem;
-
 }
 
 .ReviveDenunce,
@@ -97,13 +94,59 @@ section img {
     justify-content: center;
     align-items: center;
     gap: 4rem;
-    background-image: url(../../assets/fundoHome.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
 }
 
 .containerRevive img {
     width: 14rem;
     border-radius: 26rem;
-
 }
+
+/* Media Query for devices with a width between 320px and 480px */
+@media (min-width: 320px) and (max-width: 480px) {
+    .containerHome {
+        flex-direction: column;
+        margin: 2rem;
+    }
+
+    .containerHome img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 2rem;
+    }
+
+    .containerHomeText {
+        margin-left: 0;
+        align-items: center;
+    }
+
+    section {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .cardsHome1,
+    .cardsHome2,
+    .cardsHome3 {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    section img {
+        width: 100%;
+        height: auto;
+        margin-top: 1rem;
+    }
+
+    .ReviveDenunce,
+    .ReviveFlorecer,
+    .ReviveAmor {
+        width: 100%;
+        margin-top: 4rem;
+    }
+
+    .containerRevive {
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
+

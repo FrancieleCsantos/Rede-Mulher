@@ -11,7 +11,7 @@ function Sobre() {
             <main className={styles.containerMainSobre}>
                 <section className={styles.containerSobre}>
                     <div className={styles.container}>
-                        <Subtitle content="Conheça um pouco sobre mim" />
+                        <Subtitle className={styles.containerSobreSubtitle} content="Conheça um pouco sobre mim" />
                         <p className={styles.containerSobreTexHello}>Olá,</p><br />
                         <p className={styles.containerSobreTex}> Aqui quem escreve é Fran Santos.
                             <br />

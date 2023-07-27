@@ -1,8 +1,9 @@
-import { Link } from 'react-router-dom'
-import LogoNav from '../assets/logo.nav.png'
-import Image from '../components/Image'
 
-import styles from '../styles/components/menu.module.css'
+import React from 'react';
+import { Link } from 'react-router-dom';
+import LogoNav from '../assets/logo.nav.png';
+import Image from '../components/Image';
+import styles from '../styles/components/menu.module.css';
 
 const Menu = () => {
   return (
@@ -20,7 +21,7 @@ const Menu = () => {
         </li>
       </ul>
     </nav>
-  )
+  );
 }
 
 export default Menu;
