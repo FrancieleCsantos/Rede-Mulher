@@ -7,18 +7,64 @@
     flex-direction: column;
 }
 
+
 .containerImgAjuda {
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
-}
-
-.containerImgAjuda h2 {
-    width: 1200px;
+    align-items: center;
+    padding: 20px;
+    min-width: 600px; 
+    margin: 0 auto; 
     text-align: center;
-}
+  }
+  
+  .containerImgAjuda img {
+    width: 100%;
+    max-width: 500px; 
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .containerImgAjuda .subtitle {
+    font-size: 1rem;
+    text-align: center;
+  }
+  
+ 
 
+.containerCards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .containerCard {
+    flex: 1 1 300px;
+    max-width: 300px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .cardTitle {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .cardContato,
+  .cardEndereco {
+    font-size: 1rem;
+    margin-bottom: 0.3rem;
+  }
+  
+  .cardInformacoes {
+    font-size: 0.9rem;
+    margin-top: 1rem;
+  }
+
+  
 .containerBusca {
     display: flex;
     justify-content: center;
@@ -85,8 +131,6 @@ input:hover {
     background: rgba(8, 172, 184, 0.31);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(0px);
-    -webkit-backdrop-filter: blur(0px);
     border: 1px solid rgba(97, 10, 81, 0.18);
 
 }
@@ -100,16 +144,14 @@ input:hover {
     background: rgba(255, 255, 255, 0.16);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(0px);
-    -webkit-backdrop-filter: blur(0px);
     border: 1px solid rgba(255, 255, 255, 0.3);
 
-}
+} 
 
 .containerCard h3 {
     margin-top: 1rem;
     padding-bottom: 2rem;
-}
+} 
 
 .containerCard span {
     padding-bottom: 1rem;
@@ -117,12 +159,14 @@ input:hover {
 }
 
 .containerCard p {
-    color: #474a51;
     text-align:justify;
+    font-size: 1rem;
+    color: #474a51;
   
 }
 
 .containerCard h3 {
     color: #474a51;
     color: rgb(196, 43, 163);
-}
+} 
+
