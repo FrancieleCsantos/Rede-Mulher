@@ -60,5 +60,35 @@ Na #Ajuda, disponibilizo uma lista de instituições que prestam assistência ps
 ### Ajuda
 ![ajuda](https://github.com/FrancieleCsantos/Rede-Mulher/assets/104040061/dfe58eed-6c47-4a80-9124-7e4350fcbe29)
 
+# Como rodar o projeto localmente
+Siga os passos a seguir:
+<table>
+  <thead>
+<th>Passo	</th>
+<th>Comando</th>
+  </thead>
+    <tbody>
+    <tr>
+      <td>Faça o fork do projeto</td>
+	    <td>botão de forkar</td>
+    </tr>
+      <tr>
+      <td>Faça o clone do projeto</td>
+	    <td>git clone</td>
+    </tr>
+	 <tr>
+      <td>Instale as dependências após acessar a pasta projeto</td>
+	    <td>npm i</td>
+    </tr>
+    <tr>
+      <td>Crie as variaveis de ambiente para integrar com Firebase e inclua os valores da sua conta	conforme</td>
+	    <td> Conforme .env.example do projeto</td>
+    </tr>
+   <tr>
+      <td>Rode o projeto na sua máquina</td>
+	    <td> npm run dev</td>
+    </tr>	
+    </table>
 
+    
 ### Feito pela Fran com muito amor ♡
