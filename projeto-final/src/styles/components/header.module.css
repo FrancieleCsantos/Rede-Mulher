@@ -22,7 +22,7 @@
   max-width: 400px;
   height: auto;
   border-radius: 8px;
-}
+} 
 
 /* Media Query for devices with a width between 320px and 480px */
 @media (min-width: 320px) and (max-width: 480px) {
@@ -38,7 +38,7 @@
     max-width: 250px;
   }
 
-}
+} 
 
 /* Media Query for iPads and tablets with a width between 481px and 768px */
 @media (min-width: 481px) and (max-width: 768px) {
@@ -52,10 +52,11 @@
 
   .headerImage {
     max-width: 300px;
+   
   }
-}
+} 
 
-/* Media Query for small laptops and screens with a width between 769px and 1024px */
+
 @media (min-width: 769px) and (max-width: 1024px) {
   .headerTitle {
     font-size: 2rem;
@@ -68,9 +69,9 @@
   .headerImage {
     max-width: 350px;
   }
-}
+} 
 
-/* Media Query for desktops and large screens with a width between 1025px and 1200px */
+
 @media (min-width: 1025px) and (max-width: 1200px) {
   .headerTitle {
     font-size: 2.5rem;
@@ -83,4 +84,6 @@
   .headerImage {
     max-width: 400px;
   }
-}
+} 
+
+

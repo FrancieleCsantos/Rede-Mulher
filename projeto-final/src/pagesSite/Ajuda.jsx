@@ -42,7 +42,7 @@ function Ajuda() {
                         <button className={styles.containerBtnAjuda}>Pesquisar</button>
                     </div>
                 </div>
-                <div className={styles.containerCards}>
+                {/* <div className={styles.containerCards}>
                     {lugaresFiltrados.map((instis) => (
                         <div className={styles.containerCard} key={instis.id}>
                             <h3 className={styles.cardTitle}>{instis.Instituição}</h3>
@@ -55,7 +55,18 @@ function Ajuda() {
                     )
                     }
 
-                </div>
+                </div> */}
+                 <div className={styles.containerCards}>
+      {lugaresFiltrados.map((instis) => (
+        <div className={styles.containerCard} key={instis.id}>
+          <h3 className={styles.cardTitle}>{instis.Instituição}</h3>
+          <span className={styles.cardContato}>{instis.Cidade}</span>
+          <span className={styles.cardEndereco}>{instis.Endereço}</span>
+          <span className={styles.cardContato}>{instis.Contato}</span>
+          <p className={styles.cardInformacoes}>{instis.Informações}</p>
+        </div>
+      ))}
+    </div>
             </main>
         </>
     )

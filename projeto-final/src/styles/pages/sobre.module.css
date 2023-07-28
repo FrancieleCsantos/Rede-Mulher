@@ -7,6 +7,40 @@
     height: 100%;
 }
 
+/* seuArquivoDeEstilos.module.css */
+.containerCards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.containerCard {
+  flex: 1 1 300px;
+  max-width: 300px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.cardTitle {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.cardContato,
+.cardEndereco {
+  font-size: 1rem;
+  margin-bottom: 0.3rem;
+}
+
+.cardInformacoes {
+  font-size: 0.9rem;
+  margin-top: 1rem;
+}
+
+/* Adicione outras regras de estilo conforme necessário */
+
 .containerSobre {
     margin: 2rem;
     display: flex;

@@ -7,6 +7,48 @@
 
 .containerHome {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .containerHomeImg1 {
+    flex: 1 1 300px; /* Isso define que a imagem terá no mínimo 300px de largura e poderá crescer */
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .containerHomeText {
+    flex: 1 1 300px; /* Isso define que o texto terá no mínimo 300px de largura e poderá crescer */
+    padding: 1rem;
+  }
+  
+/* seuArquivoDeEstilos.module.css */
+.cardsHome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .cardsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .cardsHomeItem {
+    flex: 1 1 300px;
+    max-width: 300px;
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  .cardsImg {
+    width: 100%;
+    height: auto;
+  }
+  
+.containerHome {
+    display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 4rem;
@@ -16,7 +58,7 @@
 }
 
 .containerHomeText p{
-   margin-left: 2rem;
+   margin-left: 3rem;
 }
 .containerHome img {
     width: 30.25rem;
@@ -54,6 +96,27 @@ section {
     border-radius: 1rem;
 }
 
+/* seuArquivoDeEstilos.module.css */
+.containerRevive {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .ReviveDenunce,
+  .ReviveFlorecer,
+  .ReviveAmor {
+    flex: 1 1 300px;
+    max-width: 300px;
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  .imgVetores {
+    width: 100%;
+    height: auto;
+  }
+  
 .cardsHome1,
 .cardsHome2,
 .cardsHome3 {
@@ -107,6 +170,7 @@ section img {
         flex-direction: column;
         margin: 2rem;
     }
+   
 
     .containerHome img {
         width: 100%;
@@ -150,3 +214,10 @@ section img {
     }
 }
 
+
+
+
+ 
+  
+  
+  

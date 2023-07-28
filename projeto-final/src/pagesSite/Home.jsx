@@ -61,7 +61,7 @@ function Home() {
             <div className={styles.cardsHome3}>
               <Image className={styles.cardsImg} img={sexual} altText="Mulher deitada no chão, aparentemente triste" />
               <Subtitle content="Violência sexual" />
-              <Text text="é caracterizada como qualquer conduta que constranja a mulher
+              <Text text="É caracterizada como qualquer conduta que constranja a mulher
                              a presenciar, a manter ou a participar de relação sexual não desejada. 
                              Quando a mulher é obrigada a se prostituir, ameaça, coação ou uso da força;
                               que a induza a comercializar ou a utilizar, de qualquer modo, a sua sexualidade." />
