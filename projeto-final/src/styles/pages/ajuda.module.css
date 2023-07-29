@@ -1,172 +1,172 @@
 .containerMainAjuda {
-    background-image: url(../../assets/fundoAjuda.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+  background-image: url(../../assets/fundoNovo.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 
 .containerImgAjuda {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    min-width: 600px; 
-    margin: 0 auto; 
-    text-align: center;
-  }
-  
-  .containerImgAjuda img {
-    width: 100%;
-    max-width: 500px; 
-    height: auto;
-    margin-bottom: 10px;
-  }
-  
-  .containerImgAjuda .subtitle {
-    font-size: 1rem;
-    text-align: center;
-  }
-  
- 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  min-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.containerImgAjuda img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.containerImgAjuda .subtitle {
+  font-size: 1rem;
+  text-align: center;
+}
+
+
 
 .containerCards {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 20px;
-  }
-  
-  .containerCard {
-    flex: 1 1 300px;
-    max-width: 300px;
-    margin: 10px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  .cardTitle {
-    font-size: 1.5rem;
-    margin-bottom: 0.5rem;
-  }
-  
-  .cardContato,
-  .cardEndereco {
-    font-size: 1rem;
-    margin-bottom: 0.3rem;
-  }
-  
-  .cardInformacoes {
-    font-size: 0.9rem;
-    margin-top: 1rem;
-  }
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
 
-  
+.containerCard {
+  flex: 1 1 300px;
+  max-width: 300px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.cardTitle {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.cardContato,
+.cardEndereco {
+  font-size: 1rem;
+  margin-bottom: 0.3rem;
+}
+
+.cardInformacoes {
+  font-size: 0.9rem;
+  margin-top: 1rem;
+}
+
+
 .containerBusca {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
 }
 
 input {
-    width: 30%;
-    height: 40px;
-    line-height: 28px;
-    border: 2px solid rgb(143, 236, 232);
-    outline: none;
-    background-color: #f3f3f4;
-    color: #0d0c22;
-    transition: .3s ease;
+  width: 30%;
+  height: 40px;
+  line-height: 28px;
+  border: 2px solid rgb(143, 236, 232);
+  outline: none;
+  background-color: #f3f3f4;
+  color: #0d0c22;
+  transition: .3s ease;
 }
 
 input::placeholder {
-    color: #9e9ea7;
+  color: #9e9ea7;
 }
 
 input:focus,
 input:hover {
-    outline: none;
-    border-color: rgba(234, 76, 137, 0.4);
-    background-color: #ffffff;
-    box-shadow: 0 0 0 4px rgb(234 76 137 / 10%);
+  outline: none;
+  border-color: rgba(234, 76, 137, 0.4);
+  background-color: #ffffff;
+  box-shadow: 0 0 0 4px rgb(234 76 137 / 10%);
 }
 
 .containerBtnAjuda {
-    width: 8.125rem;
-    height: 2.5rem;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    display: inline-block;
-    text-align: center;
-    font-weight: bold;
-    padding: 0.7em 2em;
-    border: 1px solid #00fff2;
-    border-radius: 2px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
-    color: #37d8d0;
-    text-decoration: none;
-    transition: 0.3s ease all;
-    position: absolute;
-    margin-left: 30rem;
-    cursor: pointer;
+  width: 8.125rem;
+  height: 2.5rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+  padding: 0.7em 2em;
+  border: 1px solid #00fff2;
+  border-radius: 2px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
+  color: #37d8d0;
+  text-decoration: none;
+  transition: 0.3s ease all;
+  position: absolute;
+  margin-left: 30rem;
+  cursor: pointer;
 }
 
 .containerBtnAjuda:hover {
-    background-color: #66e1e6;
-    color: #f059e3;
+  background-color: #66e1e6;
+  color: #f059e3;
 }
 
 
 .containerCards {
 
-    border-radius: 1rem;
-    margin: 2rem;
-    display: grid;
-    grid-template-columns: repeat(4, 4fr);
-    grid-column-gap: 5px;
-    background: rgba(8, 172, 184, 0.31);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    border: 1px solid rgba(97, 10, 81, 0.18);
+  border-radius: 1rem;
+  margin: 2rem;
+  display: grid;
+  grid-template-columns: repeat(4, 4fr);
+  grid-column-gap: 5px;
+  background: rgba(8, 172, 184, 0.31);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(97, 10, 81, 0.18);
 
 }
 
 .containerCard {
-    display: flex;
-    padding: 1rem;
-    flex-direction: column;
-    margin: 1rem;
-    border-radius: 2rem;
-    background: rgba(255, 255, 255, 0.16);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    border: 1px solid rgba(255, 255, 255, 0.3);
+  display: flex;
+  padding: 1rem;
+  flex-direction: column;
+  margin: 1rem;
+  border-radius: 2rem;
+  background: rgba(255, 255, 255, 0.16);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
 
-} 
+}
 
 .containerCard h3 {
-    margin-top: 1rem;
-    padding-bottom: 2rem;
-} 
+  margin-top: 1rem;
+  padding-bottom: 2rem;
+}
 
 .containerCard span {
-    padding-bottom: 1rem;
-    color: #474a51;
+  padding-bottom: 1rem;
+  color: #474a51;
 }
 
 .containerCard p {
-    text-align:justify;
-    font-size: 1rem;
-    color: #474a51;
-  
+
+  font-size: 1rem;
+  color: #3d3f44;
+  font-family: 'Roboto', sans-serif;
+  text-align: justify;
 }
 
 .containerCard h3 {
-    color: #474a51;
-    color: rgb(196, 43, 163);
-} 
-
+  color: #474a51;
+  color: rgb(196, 43, 163);
+}
